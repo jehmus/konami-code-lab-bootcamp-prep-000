@@ -20,6 +20,6 @@ function init() {
     
   }
   
-  document.body.addEventListener('keydown', onKeyDownHandler)
+  document.addEventListener('keydown', onKeyDownHandler)
 
 }
